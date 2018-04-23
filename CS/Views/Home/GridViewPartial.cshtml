@@ -1,0 +1,8 @@
+@model System.Collections.IEnumerable
+
+@Html.DevExpress().GridView(settings => {
+    settings.Name = "GridView";
+    settings.KeyFieldName = (string)ViewData["KeyFieldName"];
+    settings.CallbackRouteValues = new { Controller = "Home", Action = "GridViewPartial" };
+    settings.ClientSideEvents.BeginCallback = "OnBeginCallback";
+}).Bind(Model).GetHtml()

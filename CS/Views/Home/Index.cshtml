@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<script type="text/javascript">
+    function OnValueChanged(s, e) {
+        $.ajax({
+            url: '@Url.Action("GridViewPartial", "Home")',
+            type: "GET",
+            data: { gridType: RadioButtonList.GetSelectedItem().text },
+            success: function (data) {
+                $('#dvContainer').html(data);
+            },
+            error: function (xhr, textStatus, errorThrown) {
+                alert('Request Status: ' + xhr.status + '; Status Text: ' + textStatus + '; Error: ' + errorThrown);
+            }
+        });
+    }
+
+    function OnBeginCallback(s, e) {
+        e.customArgs["gridType"] = RadioButtonList.GetSelectedItem().text;
+    }
+</script>
+
+@Html.DevExpress().RadioButtonList(settings => {
+    settings.Name = "RadioButtonList";
+    settings.SelectedIndex = 0;
+    settings.Properties.ClientSideEvents.ValueChanged = "OnValueChanged";
+}).BindList(Enum.GetNames(typeof(GridType))).GetHtml()
+
+<div id="dvContainer">
+    @Html.Action("GridViewPartial")
+</div>
