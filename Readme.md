@@ -11,7 +11,7 @@
 <!-- default file list end -->
 # GridView - How to switch between different datasources (models) by using ajax callbacks
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t328438)**
+**[[Run Online]](https://codecentral.devexpress.com/t328438/)**
 <!-- run online end -->
 
 
