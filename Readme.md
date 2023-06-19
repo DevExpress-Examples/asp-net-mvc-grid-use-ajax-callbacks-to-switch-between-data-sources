@@ -9,7 +9,7 @@ This example demonstrates how to use the [jQuery.ajax](https://api.jquery.com/jq
 
 ## Overview
 
-Add a [RadioButtonList](https://docs.devexpress.com/AspNetMvc/DevExpress.Web.Mvc.RadioButtonListExtension?) editor to your application and configure separate data sources. Handle the editor's `ValueChanged` event and use the [jQuery.ajax](https://api.jquery.com/jquery.ajax/) function to bind the grid to the selected data source on a callback. To identify the data sorce, use its `ID` property in the corresponding Action method.
+Add a [RadioButtonList](https://docs.devexpress.com/AspNetMvc/DevExpress.Web.Mvc.RadioButtonListExtension?) editor to your application and configure separate data sources. Handle the editor's `ValueChanged` event and use the [jQuery.ajax](https://api.jquery.com/jquery.ajax/) function to bind the grid to the selected data source on a callback. To identify the data source, use its `ID` property in the corresponding Action method.
 
 ```js
 function OnValueChanged(s, e) {
@@ -58,4 +58,4 @@ public ActionResult GridViewPartial(GridType gridType = GridType.Categories) {
 ## More Examples
 
 * [Grid View for ASP.NET Web Forms - How to bind a grid to different data sources at runtime](https://github.com/DevExpress-Examples/aspxgridview-created-at-runtime-switch-data-sources)
-* [Grid View for APS.NET MVC - How to use the jQuery.ajax function with DevExpress MVC extensions](https://github.com/DevExpress-Examples/mvc-gridview-jqueryajax-function)
+* [Grid View for ASP.NET MVC - How to use the jQuery.ajax function with DevExpress MVC extensions](https://github.com/DevExpress-Examples/mvc-gridview-jqueryajax-function)
