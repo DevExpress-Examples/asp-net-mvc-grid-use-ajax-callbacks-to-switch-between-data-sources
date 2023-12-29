@@ -4,9 +4,6 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 # Grid View for ASP.NET MVC - How to use Ajax callbacks to switch between different data sources (models)
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128550715/)**
-<!-- run online end -->
 
 This example demonstrates how to use the [jQuery.ajax](https://api.jquery.com/jquery.ajax/) function to bind the grid to different data sources on a callback.
 
