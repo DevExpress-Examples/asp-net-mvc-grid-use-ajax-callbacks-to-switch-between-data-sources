@@ -196,7 +196,4 @@
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="CS\" />
-  </ItemGroup>
 </Project>
