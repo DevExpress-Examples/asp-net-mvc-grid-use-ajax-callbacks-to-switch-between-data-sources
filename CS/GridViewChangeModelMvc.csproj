@@ -197,6 +197,6 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CS\NuGet.Config" />
+    <Folder Include="CS\" />
   </ItemGroup>
 </Project>
