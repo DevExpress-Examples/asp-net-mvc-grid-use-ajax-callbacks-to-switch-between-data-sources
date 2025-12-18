@@ -170,7 +170,6 @@
     <Content Include="Scripts\MicrosoftMvcAjax.debug.js" />
     <Content Include="Scripts\MicrosoftMvcValidation.js" />
     <Content Include="Scripts\MicrosoftMvcValidation.debug.js" />
-    <Content Include="NuGet.Config" />
     <None Include="Views\_ViewStart.vbhtml" />
     <None Include="Views\Home\Index.vbhtml" />
     <None Include="Views\Shared\_Layout.vbhtml" />
