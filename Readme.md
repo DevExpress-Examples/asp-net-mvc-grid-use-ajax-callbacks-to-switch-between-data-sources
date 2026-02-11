@@ -63,7 +63,7 @@ public ActionResult GridViewPartial(GridType gridType = GridType.Categories) {
 * [Grid View for ASP.NET Web Forms - How to bind a grid to different data sources at runtime](https://github.com/DevExpress-Examples/aspxgridview-created-at-runtime-switch-data-sources)
 * [Grid View for ASP.NET MVC - How to use the jQuery.ajax function with DevExpress MVC extensions](https://github.com/DevExpress-Examples/mvc-gridview-jqueryajax-function)
 <!-- feedback -->
-## Does This Example Address Your Development Requirements/Objectives?
+## Does this example address your development requirements/objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-mvc-grid-use-ajax-callbacks-to-switch-between-data-sources&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-mvc-grid-use-ajax-callbacks-to-switch-between-data-sources&~~~was_helpful=no)
 
